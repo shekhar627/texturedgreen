@@ -2,6 +2,22 @@
     padding: 0;
     margin:0;
 }
+@font-face {
+    font-family: 'after_shokregular';
+    src: url('./fonts/After_Shok-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'abhaya_libreregular';
+    src: url('./fonts/AbhayaLibre-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 .content{
     display: grid;
@@ -23,9 +39,11 @@
 }
 .header>p:nth-of-type(1)>span{
     color: #068900;
+    
 }
 .header p:first-of-type{
-    font-size: 50px;
+    font-size: 30px;
+    font-family: 'after_shokregular';
 } 
 
 
@@ -48,6 +66,7 @@
     color: white;
     text-decoration: none;
     padding: 20px;
+    transition-duration: .5s;
 }
 
 #custom-nav-bars{
@@ -63,6 +82,7 @@
 .content-1{
     grid-area: ctnt1;
     padding: 10px;
+    font-family: 'abhaya_libreregular';
 }
 .content-1>h3{
     margin-bottom: 10px;
@@ -71,6 +91,7 @@
 .content-2{
     grid-area: ctnt2;
     padding: 10px;
+    font-family: 'abhaya_libreregular';
 }
 .content-2>p:first-of-type{
     font-weight: bold;
@@ -86,6 +107,7 @@
     height: 150px;
     overflow: auto;
     padding: 10px;
+    font-family: 'abhaya_libreregular';
 }
 .news>div{
     margin-bottom: 10px;
